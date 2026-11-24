@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Needed to reboot to TWRP -->
+    <uses-permission android:name="android.permission.REBOOT" />
+
+    <application
+        android:allowBackup="true"
+        android:label="BROM Updater"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- WE DELETED THE LAUNCHER CATEGORY HERE TO HIDE IT -->
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
