@@ -3,6 +3,8 @@
 
     <!-- Needed to reboot to TWRP -->
     <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
